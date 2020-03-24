@@ -5,4 +5,4 @@ def run_guessing_game
   guess = gets.chomp
   if guess == number.to_s
     puts "You guessed the correct number!"
-    elsif 
+    elsif guess.endcase
